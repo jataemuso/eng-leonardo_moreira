@@ -27,6 +27,6 @@ body:hover {
 }
 
 .erro {
-    width: 100vw;
-    height: 100vh;
+    text-align: center;
+    margin-top: 3rem;
 }
