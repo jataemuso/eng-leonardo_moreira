@@ -1,3 +1,11 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://engleonardomoreira.website/$1 [R=permanent,L]
+
+
+
+DirectoryIndex index.php index.html index.htm index2.html
+
+ErrorDocument 403 https://infinityfree.net/errors/403/
+ErrorDocument 404 https://engleonardomoreira.website/404.html
+ErrorDocument 500 https://infinityfree.net/errors/500/

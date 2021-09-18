@@ -25,3 +25,8 @@ body:hover {
     margin-bottom: 3rem;
     margin-right: 3rem;
 }
+
+.erro {
+    width: 100vw;
+    height: 100vh;
+}
