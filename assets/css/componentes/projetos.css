@@ -1,0 +1,80 @@
+.projetos {
+    height: 100vh;
+}
+
+.projetos__titulo {
+    font-family: 'Antic Slab', serif;
+    text-align: center;
+    padding-top: .5rem;
+    /* margin-bottom: 3rem; */
+    font-size: 3rem;
+    color: #093366;
+    font-weight: 600;
+}
+
+.projetos-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos__carrossel {
+    width: 90%;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 0 10px 1px #000000;
+    border-radius: 2px;
+}
+
+.projetos__carrossel___imagem {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 2px;
+}
+
+.imagem-1 {
+    background-image: url(../../img/projeto-carrossel/fachada-1.jpg);
+}
+
+.imagem-2 {
+    background-image: url(../../img/projeto-carrossel/fachada-2.jpg);
+}
+
+.imagem-3 {
+    background-image: url(../../img/projeto-carrossel/fachada-3.jpg);
+}
+
+.imagem-4 {
+    background-image: url(../../img/projeto-carrossel/fachada-4.jpg);
+}
+
+.imagem-5 {
+    background-image: url(../../img/projeto-carrossel/fachada-rua-2.jpg);
+}
+
+.imagem-6 {
+    background-image: url(../../img/projeto-carrossel/Interno-Sala.jpg);
+}
+
+.imagem-7 {
+    background-image: url(../../img/projeto-carrossel/Render-fachada-casa.jpg);
+}
+
+@media screen and (max-width: 574px) {
+    .projetos {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    
+    
+    .projetos__carrossel {
+        width: 100%;
+    }
+    
+    .projetos__carrossel___imagem {
+        height: 250px;
+        width: 500px;
+    }
+
+}

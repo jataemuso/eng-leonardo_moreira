@@ -1,0 +1,54 @@
+.chamada__container {
+    display: flex;
+    align-items: center;
+    background-image: url(../../img/backgraund-image.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vh - 2.5rem);
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+    
+}
+
+
+.chamada  {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+}
+
+
+.chamada__titulo {
+    font-family: 'Montserrat', sans-serif;
+    z-index: 2;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.chamada__texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    z-index: 2;
+    font-size: 2rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+.chamada__botao {
+    z-index: 2;
+    width: 100%;
+    box-shadow: 1px 1px 20px 3px #000000;
+    
+}
+

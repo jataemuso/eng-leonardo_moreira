@@ -1,0 +1,58 @@
+.time-casa-propria {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../../img/projeto-carrossel/time-casa-propria-fundo.png);
+    overflow: hidden;
+}
+
+.time-casa-propria__imagem {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.time-casa-propria__jogador {  
+    width: 350px;
+    height: 350px;
+    margin-bottom: 2rem;
+    margin-right: 5rem;
+    overflow: hidden;
+    
+}
+
+.time-casa-propria__imagem-div {
+    z-index: 1;
+    position: relative;
+}
+
+
+.time-casa-propria__jogador-div {
+    position: absolute;
+    z-index: 5;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .time-casa-propria__jogador-div {
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+    
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .time-casa-propria__jogador-div {
+        width: 150px;
+        height: 150px;
+    
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .time-casa-propria__jogador-div {
+        display: none;
+    
+    }
+
+}

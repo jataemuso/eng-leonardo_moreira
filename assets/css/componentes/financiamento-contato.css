@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    width: 100%;
+    height: 4248px;
+}
+
+.imagem {
+    width: 100%;
+}

@@ -1,0 +1,165 @@
+.financiamento {
+    display: flex;
+    background-image: url(../../img/architect.jpg);
+    background-position: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.financiamento__caixa {
+    padding-left: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.financiamento__caixa___imagem {
+    width: 95%;
+    border-radius: 5px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 0 50px #000000;
+}
+
+
+.financiamento__texto___titulo {
+    text-align: center;
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #918324;
+}
+
+.financiamento__texto___lista {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-transform: uppercase;
+
+}
+
+.financiamento__texto-card {
+    margin: 1.7rem;
+}
+
+.financiamento__texto-card-body {
+    padding: .2rem 1rem;
+}
+
+
+.financiamento__texto___lista____item{
+    /* text-transform: uppercase; */
+    padding: .3rem;
+    background: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.icone-chek::before {
+    content: "\2713";
+    color: #11F100;
+    padding-right: .7rem;
+}
+
+.formulario-botao {
+    background-color: #61CE70;
+    padding: 1rem;
+    width: 95%;
+    border-radius: 8px;
+    margin-top: 1rem;  
+    transition: 1s all;  
+}
+
+.formulario-botao:hover {
+    transform: scale(1.05);
+}
+
+.formulario-botao__a {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+}
+
+.formulario-botao__a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.formulario-botao__a___p {
+    text-align: center;
+    margin: 0;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 700;
+    
+}
+
+@media screen and (max-width: 574px) {
+
+    .financiamento {
+        display: flex;
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+    
+    }
+    
+    .financiamento__caixa {
+        padding-left: 0;
+        width: 100%;
+    }
+    
+    .financiamento__caixa___imagem {
+        margin-top: 3rem;
+        width: 100%;
+        border-radius: 5px;
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        box-shadow: 0 0 50px #000000;
+    }
+    
+    .financiamento__texto___titulo {
+        text-align: center;
+        font-family: 'Amiri', serif;
+        font-weight: 700;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #918324;
+    }
+    
+    .financiamento__texto___lista {
+        font-family: 'Roboto', serif;
+        font-weight: 400;
+        font-size: 19px;
+        text-transform: uppercase;
+    
+    }
+    
+    .financiamento__texto-card {
+        margin: 1.7rem;
+    }
+    
+    .financiamento__texto-card-body {
+        padding: .2rem 1rem;
+    }
+    
+    
+    .financiamento__texto___lista____item{
+        /* text-transform: uppercase; */
+        padding: .3rem;
+        background: none;
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    
+    .icone-chek::before {
+        content: "\2713";
+        color: #11F100;
+        padding-right: .7rem;
+    }
+
+}

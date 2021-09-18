@@ -1,0 +1,34 @@
+main {
+    padding: 0 12rem;
+    /* background-image: url(../../img/backgraund-image.jpg); */
+}
+
+.titulo, .cookies__titulo, .compromisso__titulo {
+    padding-top: 2rem;
+    text-align: center;
+    font-family: "Amiri", Sans-serif;
+    font-weight: 600;
+    color: #918324;
+    margin-bottom: 0;
+}
+
+.efetiva {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: "Amiri", Sans-serif;
+    margin-bottom: 0;
+}
+
+.politica-de-privaciadade__p, .cookies__p, .compromisso__p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.compromisso__lista___item {
+    padding-bottom: .5rem;
+}
+
+.compromisso__p {
+    margin-bottom: 0;
+}

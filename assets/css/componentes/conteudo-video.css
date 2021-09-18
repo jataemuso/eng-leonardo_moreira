@@ -1,0 +1,125 @@
+.conteudo-video {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image: url("../../img/Hexagon-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.conteudo-video__video {
+    position: relative;
+    margin-left: 2rem;  
+    width: 50%;  
+}
+
+.conteudo-video__texto {
+    margin-left: 2rem;
+    text-align: start;
+    width: 50%;
+}
+
+.conteudo-video__texto___titulo {
+    font-size: 2.51rem;
+    color: #093366;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.conteudo-video__texto___descricao {
+    margin-left: 1rem;
+    color: #093366;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.conteudo-video__texto___descricao____item {
+    list-style: disc;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.video {
+    width: 100%;
+    height: 360px;
+    /* border: 10px solid #f1f1f1; */
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 5px 5px 15px #000000;
+    transition: .9s all;
+}
+
+.video:hover {
+    transform: translate(1px, 2px);
+    box-shadow: 1px 1px 5px #000000;
+}
+
+@media screen and (max-width: 574px){
+    .conteudo-video {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .video {
+        width: 100vw;
+        height: 40vh;
+        /* border: 10px solid #f1f1f1; */
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        box-shadow: 5px 5px 15px #000000;
+        transition: none;
+    
+}
+
+    .video:hover {
+    transform: none;
+    box-shadow: 5px 5px 15px #000000;
+}
+
+    .conteudo-video__video {
+    width: 90%;
+}
+
+    .conteudo-video__video {
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 1rem;  
+}
+
+
+/* Inicio conteudo texto */
+
+.conteudo-video__texto {
+    margin-left: 0;
+    text-align: start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-video__texto___titulo {
+    font-size: 2.51rem;
+    color: #093366;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.conteudo-video__texto___descricao {
+    margin-left: 0;
+    color: #093366;
+    margin-top: .7rem;
+    font-size: 1.5rem;
+}
+
+.conteudo-video__texto___descricao____item {
+    list-style: disc;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+    /* Fim conteudo texto */
+
+}

@@ -1,0 +1,122 @@
+.moveis-planejados {
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8vh;
+    /* padding-top: 5rem; */
+}
+
+.moveis-planejados__caller {
+    display: flex;
+    flex-direction: column;   
+    width: 55%;
+    align-items: center;
+}
+
+.logo-caller {
+    width: 300px;
+    height: 130px;
+}
+
+.moveis-planejados__titulo {
+    font-family: 'Antic Slab', serif;
+    text-align: center;
+    padding-top: .5rem;
+    font-size: 3rem;
+    color: #093366;
+    font-weight: 600;
+
+}
+
+.moveis-planejados__carrossel {
+    margin-right: 10rem;
+    width: 40%;
+    height: 95vh;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 0 10px 1px #000000;
+    border-radius: 2px;
+}
+
+.moveis-planejados__carrossel___imagem {
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    /* width: 1000px; */
+    border-radius: 2px;
+}
+
+.moveis-planejados-imagem-1 {
+    background-image: url(../../img/moveis-planejados/moveis-planejados6.jpeg);
+}
+
+.moveis-planejados-imagem-2 {
+    background-image: url(../../img/moveis-planejados/moveis-planejados1.jpeg);
+}
+
+.moveis-planejados-imagem-3 {
+    background-image: url(../../img/moveis-planejados/moveis-planejados2.jpeg);
+}
+
+.moveis-planejados-imagem-4 {
+    background-image: url(../../img/moveis-planejados/moveis-planejados3.jpeg);
+}
+
+.moveis-planejados-imagem-5 {
+    background-image: url(../../img/moveis-planejados/moveis-planejados4.jpeg);
+}
+
+.moveis-planejados-imagem-6 {
+    background-image: url(../../img/moveis-planejados/moveis-planejados5.jpeg);
+}
+
+@media screen and (max-width: 574px) {
+    .moveis-planejados {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    
+    .moveis-planejados__caller {
+        display: flex;
+        flex-direction: column;   
+        width: 90%;
+        align-items: center;
+    }
+    
+    .logo-caller {
+        width: 300px;
+        height: 130px;
+    }
+    
+    .moveis-planejados__titulo {
+        font-family: 'Antic Slab', serif;
+        text-align: center;
+        padding-top: .5rem;
+        font-size: 3rem;
+        color: #093366;
+        font-weight: 600;
+    
+    }
+    
+    .moveis-planejados__carrossel {
+        margin-right: 0;
+        width: 90%;
+        height: 95vh;
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        box-shadow: 0 0 10px 1px #000000;
+        border-radius: 2px;
+    }
+    
+    .moveis-planejados__carrossel___imagem {
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+        /* width: 1000px; */
+        border-radius: 2px;
+    }
+
+}

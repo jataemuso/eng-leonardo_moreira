@@ -1,0 +1,25 @@
+main {
+    padding: 0 12rem;
+}
+
+.titulo {
+    padding-top: 2rem;
+    text-align: center;
+    font-family: "Amiri", Sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #918324;
+    margin-bottom: 0;
+}
+
+.uso-de-licenca__p, .limitacoes__p, .materiais__p, .links__p, .modificacoes__p, .termos__p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px){
+    main {
+        padding: 0 .3rem;
+    }
+}

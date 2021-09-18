@@ -1,0 +1,34 @@
+.botao {
+    text-align: center;
+
+    display: block;
+
+    width: 100%;
+    max-width: 350px;
+
+    box-sizing: border-box;
+
+    padding: 1rem 2rem;
+
+    color: #FFFFFF;
+    background-color: orange;
+    transition: 1s all;
+
+    text-decoration: none;
+
+    border: none;
+    border-radius: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+
+}
+
+.botao:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: darkorange;
+    transform: scale(1.09);
+    color: #FFFFFF;
+}

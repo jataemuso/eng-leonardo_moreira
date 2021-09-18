@@ -1,0 +1,27 @@
+@import url(_reset.css);
+
+body:hover {
+    cursor: default;
+}
+
+.voltar {
+    display: none;
+}
+
+.descendo {
+    list-style: none;
+    border: none;
+    display: none;
+}
+
+.voltar__imagem {
+    height: 50px;
+    width: 50px;
+}
+
+.subindo {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+}
